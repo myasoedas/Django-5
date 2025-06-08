@@ -11,6 +11,13 @@ source my_env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
+# Установка атоформатеров кода Python
+pip install isort black
+# Создайте файл pyproject.toml и внесите в него настройки PEP8
+# Когда настройки будут готовы выполняйте команды из корня проекта:
+isort mysite/
+black mysite/
+
 # Создай и примени миграции
 cd you-app-name/
 python manage.py makemigrations
