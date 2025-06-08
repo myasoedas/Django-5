@@ -3,18 +3,26 @@ from django.utils import timezone
 
 
 class Post(models.Model):
+    class Status(models.TextChoices):
+        DRAFT = 'DF', 'Черновик'          # Код DF, человекочитаемое название — Черновик
+        PUBLISHED = 'PB', 'Опубликовано'  # Код PB, человекочитаемое название — Опубликовано
+
     title = models.CharField(max_length=250)
     slug = models.SlugField(max_length=250)
     body = models.TextField()
-
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    status = models.CharField(
+        max_length=2,                # Храним 2 символа (DF или PB)
+        choices=Status.choices,     # Список допустимых значений из перечисления
+        default=Status.DRAFT,       # Значение по умолчанию — черновик
+    )
 
     class Meta:
-        ordering = ['-publish']
+        ordering = ['-publish']     # Сортировка по дате публикации (сначала новые)
         indexes = [
-            models.Index(fields=['-publish']),
+            models.Index(fields=['-publish']),  # Индекс для ускорения сортировки
         ]
 
     def __str__(self):
