@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils import timezone
+from django.db.models.functions import Now
 
 
 class Post(models.Model):
@@ -7,7 +7,9 @@ class Post(models.Model):
     slug = models.SlugField(max_length=250)
     body = models.TextField()
 
-    publish = models.DateTimeField(default=timezone.now)
+    publish = models.DateTimeField(
+        db_default=Now()
+    )
 
     def __str__(self):
         return self.title
