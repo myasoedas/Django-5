@@ -1,0 +1,71 @@
+# Виртуальное окружение
+my_env/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы логов и отладочной информации
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.tmp
+
+# Файлы среды (например, VSCode, PyCharm)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Кеш пакетов pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Файлы окружения и настроек
+.env
+.env.*
+
+# Базы данных и дампы
+*.sqlite3
+*.db
+
+# Статика, если собирается отдельно
+/staticfiles/
+/static/
+/media/
+
+# Тестовые и временные файлы
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+
+# Файлы миграций можно игнорировать при необходимости
+# migrations/
+
+# Сборки
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker/Compose
+*.pid
+*.sock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
