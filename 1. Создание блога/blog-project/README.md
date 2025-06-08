@@ -4,8 +4,8 @@ git clone https://github.com/you-accaunt-name/you-git-repositoies-name
 cd you-git-repositoies-name
 
 # Создай и активируй виртуальное окружение:
-python3.9 -m venv venv
-source venv/bin/activate
+python3.12 -m venv my_env
+source my_env/bin/activate
 
 # Установи зависимости проекта:
 pip install --upgrade pip
