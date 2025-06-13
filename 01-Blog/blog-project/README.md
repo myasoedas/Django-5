@@ -30,3 +30,14 @@ python manage.py createsuperuser
 python manage.py runserver
 
 ```
+
+```bash
+# Инструкция как запушить приложение в Docker контейнере в облако cloud.ru для работы с автодобавлением мощности при нагрузке.
+docker login evo-containerapp-react-sample.cr.cloud.ru -u 94d121e29ee3b81d75cc8629813fa42d -p a92d48387eb597e4044cf72a1b985cbc
+
+docker build --tag evo-containerapp-react-sample.cr.cloud.ru/evo-containerapp-react-sample https://gitverse.ru/cloudru/evo-containerapp-react-sample.git#master --platform linux/amd64
+
+https://gitverse.ru/cloudru/evo-containerapp-react-sample.git
+
+docker push evo-containerapp-react-sample.cr.cloud.ru/evo-containerapp-react-sample
+```

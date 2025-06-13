@@ -1,5 +1,10 @@
+import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 # Абсолютный путь до корневой директории проекта.
 # Используется для построения всех путей внутри настроек проекта.
@@ -7,27 +12,25 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Секретный ключ Django. Используется для криптографических операций.
 # Никогда не публикуется. В продакшене должен храниться в переменных окружения.
-SECRET_KEY = (
-    "django-insecure-q5kg0)za(0605y3=lpdlv)ivr)96-uc^qzp4v=jcjh3ny(88ej"
-)
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # Включает режим отладки. Показывает подробную информацию об ошибках.
 # В продакшене всегда должен быть установлен в False.
-DEBUG = True
+DEBUG = os.getenv("DEBUG", "False") == "True"
 
 # Список разрешённых доменов, с которых может обслуживаться сайт.
 # Работает только если DEBUG установлен в False.
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
 # Список подключенных приложений проекта. Включает как встроенные, так и кастомные приложения.
 INSTALLED_APPS = [
-    "django.contrib.admin",         # Встроенная административная панель управления моделями.
-    "django.contrib.auth",          # Система аутентификации пользователей.
+    "django.contrib.admin",  # Встроенная административная панель управления моделями.
+    "django.contrib.auth",  # Система аутентификации пользователей.
     "django.contrib.contenttypes",  # Поддержка универсальных связей между моделями.
-    "django.contrib.sessions",      # Поддержка пользовательских сессий через cookie.
-    "django.contrib.messages",      # Механизм хранения временных сообщений для пользователей.
-    "django.contrib.staticfiles",   # Поддержка обработки статических файлов (CSS, JS, изображения).
-    'blog.apps.BlogConfig',         # <-- Подключаем приложение blog
+    "django.contrib.sessions",  # Поддержка пользовательских сессий через cookie.
+    "django.contrib.messages",  # Механизм хранения временных сообщений для пользователей.
+    "django.contrib.staticfiles",  # Поддержка обработки статических файлов (CSS, JS, изображения).
+    "blog.apps.BlogConfig",  # <-- Подключаем приложение blog
 ]
 
 # Список промежуточных компонентов, которые обрабатывают HTTP-запросы и ответы.
@@ -67,10 +70,22 @@ WSGI_APPLICATION = "mysite.wsgi.application"
 
 # Настройки базы данных.
 # По умолчанию используется SQLite — встроенная лёгкая база, подходящая для разработки.
+
+# DATABASES = {
+#    "default": {
+#        "ENGINE": "django.db.backends.sqlite3",  # Движок базы данных. Здесь используется SQLite.
+#        "NAME": BASE_DIR / "db.sqlite3",  # Путь до файла базы данных.
+#    }
+# }
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",  # Движок базы данных. Здесь используется SQLite.
-        "NAME": BASE_DIR / "db.sqlite3",  # Путь до файла базы данных.
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.getenv("DB_NAME"),
+        "USER": os.getenv("DB_USER"),
+        "PASSWORD": os.getenv("DB_PASSWORD"),
+        "HOST": os.getenv("DB_HOST", "localhost"),
+        "PORT": os.getenv("DB_PORT", "5432"),
     }
 }
 
