@@ -1,0 +1,1402 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "ivan.lebedev.1",
+      "email": "ivan.lebedev.1@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137264"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "olga.lebedev.2",
+      "email": "olga.lebedev.2@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137282"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "olga.smirnov.3",
+      "email": "olga.smirnov.3@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137288"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "maria.petrov.4",
+      "email": "maria.petrov.4@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137295"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "username": "dmitry.sidorov.5",
+      "email": "dmitry.sidorov.5@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137302"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "username": "olga.smirnov.6",
+      "email": "olga.smirnov.6@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137309"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "username": "anna.sidorov.7",
+      "email": "anna.sidorov.7@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137316"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "username": "victor.kuznetsov.8",
+      "email": "victor.kuznetsov.8@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137327"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "username": "dmitry.sidorov.9",
+      "email": "dmitry.sidorov.9@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137335"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "username": "ivan.morozov.10",
+      "email": "ivan.morozov.10@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137342"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "username": "victor.kuznetsov.11",
+      "email": "victor.kuznetsov.11@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137349"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "username": "elena.morozov.12",
+      "email": "elena.morozov.12@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137356"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "username": "maria.mikhailova.13",
+      "email": "maria.mikhailova.13@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137363"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+      "username": "alex.morozov.14",
+      "email": "alex.morozov.14@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137370"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+      "username": "dmitry.volkova.15",
+      "email": "dmitry.volkova.15@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137377"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+      "username": "elena.fedorov.16",
+      "email": "elena.fedorov.16@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137383"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+      "username": "ivan.sidorov.17",
+      "email": "ivan.sidorov.17@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137390"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+      "username": "victor.mikhailova.18",
+      "email": "victor.mikhailova.18@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137396"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+      "username": "dmitry.sidorov.19",
+      "email": "dmitry.sidorov.19@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137404"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+      "username": "alex.lebedev.20",
+      "email": "alex.lebedev.20@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137410"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+      "username": "nina.orlov.21",
+      "email": "nina.orlov.21@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137416"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+      "username": "alex.lebedev.22",
+      "email": "alex.lebedev.22@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137423"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 23,
+    "fields": {
+      "username": "nina.sidorov.23",
+      "email": "nina.sidorov.23@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137430"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+      "username": "anna.sidorov.24",
+      "email": "anna.sidorov.24@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137436"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+      "username": "victor.petrov.25",
+      "email": "victor.petrov.25@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137443"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+      "username": "anna.sidorov.26",
+      "email": "anna.sidorov.26@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137450"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 27,
+    "fields": {
+      "username": "olga.petrov.27",
+      "email": "olga.petrov.27@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137457"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 28,
+    "fields": {
+      "username": "sergey.petrov.28",
+      "email": "sergey.petrov.28@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137463"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 29,
+    "fields": {
+      "username": "olga.smirnov.29",
+      "email": "olga.smirnov.29@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137470"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 30,
+    "fields": {
+      "username": "ivan.fedorov.30",
+      "email": "ivan.fedorov.30@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137477"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 31,
+    "fields": {
+      "username": "alex.volkova.31",
+      "email": "alex.volkova.31@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137483"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 32,
+    "fields": {
+      "username": "ivan.smirnov.32",
+      "email": "ivan.smirnov.32@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137489"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 33,
+    "fields": {
+      "username": "alex.lebedev.33",
+      "email": "alex.lebedev.33@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137496"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 34,
+    "fields": {
+      "username": "dmitry.fedorov.34",
+      "email": "dmitry.fedorov.34@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137504"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 35,
+    "fields": {
+      "username": "anna.sidorov.35",
+      "email": "anna.sidorov.35@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137510"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 36,
+    "fields": {
+      "username": "alex.sidorov.36",
+      "email": "alex.sidorov.36@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137517"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 37,
+    "fields": {
+      "username": "nina.petrov.37",
+      "email": "nina.petrov.37@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137523"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 38,
+    "fields": {
+      "username": "nina.petrov.38",
+      "email": "nina.petrov.38@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137530"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 39,
+    "fields": {
+      "username": "alex.orlov.39",
+      "email": "alex.orlov.39@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137536"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 40,
+    "fields": {
+      "username": "elena.sidorov.40",
+      "email": "elena.sidorov.40@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137543"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 41,
+    "fields": {
+      "username": "dmitry.morozov.41",
+      "email": "dmitry.morozov.41@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137549"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 42,
+    "fields": {
+      "username": "victor.mikhailova.42",
+      "email": "victor.mikhailova.42@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137555"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 43,
+    "fields": {
+      "username": "dmitry.kuznetsov.43",
+      "email": "dmitry.kuznetsov.43@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137562"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 44,
+    "fields": {
+      "username": "maria.fedorov.44",
+      "email": "maria.fedorov.44@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137568"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 45,
+    "fields": {
+      "username": "sergey.fedorov.45",
+      "email": "sergey.fedorov.45@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137575"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 46,
+    "fields": {
+      "username": "maria.sidorov.46",
+      "email": "maria.sidorov.46@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137582"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 47,
+    "fields": {
+      "username": "nina.fedorov.47",
+      "email": "nina.fedorov.47@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137589"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 48,
+    "fields": {
+      "username": "ivan.fedorov.48",
+      "email": "ivan.fedorov.48@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137595"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 49,
+    "fields": {
+      "username": "elena.petrov.49",
+      "email": "elena.petrov.49@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137601"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 50,
+    "fields": {
+      "username": "maria.kuznetsov.50",
+      "email": "maria.kuznetsov.50@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137609"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 51,
+    "fields": {
+      "username": "victor.orlov.51",
+      "email": "victor.orlov.51@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137615"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 52,
+    "fields": {
+      "username": "anna.fedorov.52",
+      "email": "anna.fedorov.52@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137621"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 53,
+    "fields": {
+      "username": "victor.mikhailova.53",
+      "email": "victor.mikhailova.53@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137628"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 54,
+    "fields": {
+      "username": "elena.fedorov.54",
+      "email": "elena.fedorov.54@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137634"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 55,
+    "fields": {
+      "username": "ivan.sidorov.55",
+      "email": "ivan.sidorov.55@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137641"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 56,
+    "fields": {
+      "username": "sergey.morozov.56",
+      "email": "sergey.morozov.56@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137647"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 57,
+    "fields": {
+      "username": "elena.sidorov.57",
+      "email": "elena.sidorov.57@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137653"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 58,
+    "fields": {
+      "username": "victor.fedorov.58",
+      "email": "victor.fedorov.58@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137673"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 59,
+    "fields": {
+      "username": "anna.sidorov.59",
+      "email": "anna.sidorov.59@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137681"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 60,
+    "fields": {
+      "username": "maria.volkova.60",
+      "email": "maria.volkova.60@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137687"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 61,
+    "fields": {
+      "username": "anna.petrov.61",
+      "email": "anna.petrov.61@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137694"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 62,
+    "fields": {
+      "username": "dmitry.volkova.62",
+      "email": "dmitry.volkova.62@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137700"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 63,
+    "fields": {
+      "username": "anna.morozov.63",
+      "email": "anna.morozov.63@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137706"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 64,
+    "fields": {
+      "username": "maria.smirnov.64",
+      "email": "maria.smirnov.64@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137712"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 65,
+    "fields": {
+      "username": "ivan.kuznetsov.65",
+      "email": "ivan.kuznetsov.65@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137719"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 66,
+    "fields": {
+      "username": "ivan.orlov.66",
+      "email": "ivan.orlov.66@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137725"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 67,
+    "fields": {
+      "username": "alex.kuznetsov.67",
+      "email": "alex.kuznetsov.67@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137731"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 68,
+    "fields": {
+      "username": "nina.petrov.68",
+      "email": "nina.petrov.68@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137737"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 69,
+    "fields": {
+      "username": "anna.mikhailova.69",
+      "email": "anna.mikhailova.69@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137744"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 70,
+    "fields": {
+      "username": "anna.fedorov.70",
+      "email": "anna.fedorov.70@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137749"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 71,
+    "fields": {
+      "username": "nina.morozov.71",
+      "email": "nina.morozov.71@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137756"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 72,
+    "fields": {
+      "username": "ivan.kuznetsov.72",
+      "email": "ivan.kuznetsov.72@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137762"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 73,
+    "fields": {
+      "username": "victor.smirnov.73",
+      "email": "victor.smirnov.73@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137768"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 74,
+    "fields": {
+      "username": "elena.mikhailova.74",
+      "email": "elena.mikhailova.74@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137774"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 75,
+    "fields": {
+      "username": "anna.lebedev.75",
+      "email": "anna.lebedev.75@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137781"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 76,
+    "fields": {
+      "username": "olga.lebedev.76",
+      "email": "olga.lebedev.76@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137787"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 77,
+    "fields": {
+      "username": "elena.lebedev.77",
+      "email": "elena.lebedev.77@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137795"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 78,
+    "fields": {
+      "username": "elena.mikhailova.78",
+      "email": "elena.mikhailova.78@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137801"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 79,
+    "fields": {
+      "username": "maria.volkova.79",
+      "email": "maria.volkova.79@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137808"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 80,
+    "fields": {
+      "username": "nina.smirnov.80",
+      "email": "nina.smirnov.80@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137814"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 81,
+    "fields": {
+      "username": "alex.fedorov.81",
+      "email": "alex.fedorov.81@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137819"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 82,
+    "fields": {
+      "username": "sergey.petrov.82",
+      "email": "sergey.petrov.82@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137826"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 83,
+    "fields": {
+      "username": "dmitry.smirnov.83",
+      "email": "dmitry.smirnov.83@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137832"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 84,
+    "fields": {
+      "username": "elena.fedorov.84",
+      "email": "elena.fedorov.84@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137838"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 85,
+    "fields": {
+      "username": "ivan.petrov.85",
+      "email": "ivan.petrov.85@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137844"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 86,
+    "fields": {
+      "username": "anna.kuznetsov.86",
+      "email": "anna.kuznetsov.86@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137850"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 87,
+    "fields": {
+      "username": "alex.kuznetsov.87",
+      "email": "alex.kuznetsov.87@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137855"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 88,
+    "fields": {
+      "username": "victor.mikhailova.88",
+      "email": "victor.mikhailova.88@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137862"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 89,
+    "fields": {
+      "username": "sergey.smirnov.89",
+      "email": "sergey.smirnov.89@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137868"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 90,
+    "fields": {
+      "username": "dmitry.smirnov.90",
+      "email": "dmitry.smirnov.90@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137874"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 91,
+    "fields": {
+      "username": "alex.sidorov.91",
+      "email": "alex.sidorov.91@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137881"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 92,
+    "fields": {
+      "username": "elena.mikhailova.92",
+      "email": "elena.mikhailova.92@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137887"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 93,
+    "fields": {
+      "username": "nina.petrov.93",
+      "email": "nina.petrov.93@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137895"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 94,
+    "fields": {
+      "username": "elena.sidorov.94",
+      "email": "elena.sidorov.94@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137901"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 95,
+    "fields": {
+      "username": "ivan.lebedev.95",
+      "email": "ivan.lebedev.95@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137908"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 96,
+    "fields": {
+      "username": "nina.mikhailova.96",
+      "email": "nina.mikhailova.96@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137914"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 97,
+    "fields": {
+      "username": "dmitry.kuznetsov.97",
+      "email": "dmitry.kuznetsov.97@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137920"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 98,
+    "fields": {
+      "username": "victor.orlov.98",
+      "email": "victor.orlov.98@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137926"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 99,
+    "fields": {
+      "username": "dmitry.mikhailova.99",
+      "email": "dmitry.mikhailova.99@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137933"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 100,
+    "fields": {
+      "username": "nina.mikhailova.100",
+      "email": "nina.mikhailova.100@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$example$exampleexampleexampleexampleexample",
+      "last_login": null,
+      "date_joined": "2025-06-13T20:52:10.137939"
+    }
+  }
+]
