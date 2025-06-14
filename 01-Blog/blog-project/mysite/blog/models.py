@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
+from django.contrib.postgres.search import SearchVectorField
 from django.contrib.postgres.indexes import GinIndex
 
 
@@ -73,6 +74,7 @@ class Post(models.Model):
         verbose_name="Статус",
         help_text="Текущий статус публикации",
     )
+    search_vector = SearchVectorField(null=True, editable=False)
 
     class Meta:
         # Сортировка по дате публикации по убыванию (новые — первыми).
@@ -91,6 +93,7 @@ class Post(models.Model):
                 fields=["body"],
                 opclasses=["gin_trgm_ops"],
             ),
+            GinIndex(fields=["search_vector"]),
         ]
 
         # Человекочитаемые имена модели для отображения в админке.
