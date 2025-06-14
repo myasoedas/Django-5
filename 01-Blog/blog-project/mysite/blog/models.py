@@ -2,6 +2,8 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
+from django.contrib.postgres.indexes import GinIndex
+
 
 class Post(models.Model):
     # Вложенное перечисление возможных статусов поста.
@@ -79,6 +81,16 @@ class Post(models.Model):
         # Индекс на поле publish — улучшает производительность сортировки и фильтрации.
         indexes = [
             models.Index(fields=["-publish"]),
+            GinIndex(
+                name="idx_post_title_trgm",
+                fields=["title"],
+                opclasses=["gin_trgm_ops"],
+            ),
+            GinIndex(
+                name="idx_post_body_trgm",
+                fields=["body"],
+                opclasses=["gin_trgm_ops"],
+            ),
         ]
 
         # Человекочитаемые имена модели для отображения в админке.

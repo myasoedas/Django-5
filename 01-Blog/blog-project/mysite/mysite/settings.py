@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",  # Механизм хранения временных сообщений для пользователей.
     "django.contrib.staticfiles",  # Поддержка обработки статических файлов (CSS, JS, изображения).
     "blog.apps.BlogConfig",  # <-- Подключаем приложение blog
+    'search.apps.SearchConfig',  # Подключаем приложение search
 ]
 
 # Список промежуточных компонентов, которые обрабатывают HTTP-запросы и ответы.
